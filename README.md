@@ -4,6 +4,8 @@
 
 <br>
 
+> Before running make sure to install the required packages by the command below <br> `pip install -r requirements.txt`
+
 ## Overview
 
 This project focuses on leaf classification using a neural network architecture, specifically a Convolutional Neural Network (CNN). The goal is to prepare the data and train a CNN model, exploring various hyperparameter settings for optimal performance.
@@ -60,13 +62,14 @@ This project focuses on leaf classification using a neural network architecture,
 
 3. **Explore Hyperparameter Settings:**
 
-   - Investigate the impact of various hyperparameters:
-     - Batch size
-     - Number of layers
-     - Dropout rates
-     - Optimizers (e.g., SGD, Adam, RMSProp)
-     - Regularization (L2 regularization)
-     - Learning rate and learning rate scheduler
+   Investigate the impact of various hyperparameters:
+
+   - Batch size
+   - Number of layers
+   - Dropout rates
+   - Optimizers (e.g., SGD, Adam, RMSProp)
+   - Regularization (L2 regularization)
+   - Learning rate and learning rate scheduler
 
 4. **TensorBoard Monitoring:**
 
